@@ -1,0 +1,18 @@
+import math
+
+
+r_area = lambda len, ht : len*ht
+
+t_area =lambda b,h:(b*h)/2
+
+c_area = lambda rad : math.pi*rad*rad
+
+
+print("Area of Rectangle (30,20) is:", r_area(30,20))
+
+
+print("Area of circle (15) is:", c_area(15))
+
+
+print("Area of triangle (5,4) :",
+ t_area(5,4))

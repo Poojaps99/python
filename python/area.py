@@ -1,6 +1,11 @@
 
-PI = 3.14
-radius = float(input(' Please Enter the radius of a circle: '))
-area = PI * radius * radius
+import math
 
-print(" Area Of a Circle = %.2f" %area)
+#Function that calculates area of circle
+def area_of_circle(r): 
+    a = r**2 * math.pi
+    return a
+
+r = float(input("Enter the radius of the circle: "))
+print("%.2f " %area_of_circle(r))
+
